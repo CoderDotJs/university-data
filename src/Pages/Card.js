@@ -10,7 +10,7 @@ const Card = (props) => {
     console.log(data)
 
     return (
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4} sm={6}>
             <NavLink to={`/universities/${data.name}`} style={{color: 'black', textDecoration: 'none'}}>
                 <List>
                     <ListItemButton>
