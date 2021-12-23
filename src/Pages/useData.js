@@ -24,6 +24,7 @@ const useData = () => {
             })
             .catch(err => {
                 console.log(err);
+                alert('Something went wrong!')
                 setUniversities([]);
                 setName('');
             });
